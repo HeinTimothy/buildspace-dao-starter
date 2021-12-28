@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap');
+
 html,
 body {
   margin: 0;
-  font-family: Inter, sans-serif;
+  font-family: 'Jetbrains Mono', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
+  background-color: #292524;
   color: #fff;
   overflow-x: hidden;
 }
@@ -15,6 +17,7 @@ body {
 
 h1 {
   font-size: 5rem;
+  text-shadow: #be123c 4px 4px 0;
 }
 @media screen and (max-width: 768px) {
   h1 {
